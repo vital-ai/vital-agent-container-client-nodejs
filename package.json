@@ -1,0 +1,38 @@
+{
+  "name": "vital-agent-container-client-nodejs",
+  "version": "1.0.0",
+  "description": "TypeScript WebSocket client for services that exchange JSON messages",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint --ext .ts src/",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vital-ai/vital-agent-container-client-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vital-ai/vital-agent-container-client-nodejs/issues"
+  },
+  "homepage": "https://github.com/vital-ai/vital-agent-container-client-nodejs#readme",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.0.7",
+    "@types/uuid": "^10.0.0",
+    "@types/ws": "^8.18.1",
+    "jest": "^30.0.3",
+    "ts-jest": "^29.4.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "uuid": "^11.1.0"
+  },
+  "dependencies": {
+    "ws": "^8.18.3"
+  }
+}
