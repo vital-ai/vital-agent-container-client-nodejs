@@ -1,3 +1,8 @@
+domain_schema/*.ts
+
+package-lock.json
+
+
 # Dependencies
 node_modules/
 npm-debug.log

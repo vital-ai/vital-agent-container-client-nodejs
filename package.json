@@ -8,7 +8,8 @@
     "build": "tsc",
     "test": "jest",
     "lint": "eslint --ext .ts src/",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "agent:connect": "ts-node scripts/agent-connect-script.ts"
   },
   "repository": {
     "type": "git",
@@ -28,11 +29,12 @@
     "@types/ws": "^8.18.1",
     "jest": "^30.0.3",
     "ts-jest": "^29.4.0",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.8.3",
+    
     "uuid": "^11.1.0"
   },
   "dependencies": {
-    "ws": "^8.18.3"
+    "ws": "^8.18.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
   }
 }
