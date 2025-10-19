@@ -1,0 +1,33 @@
+import { VITAL_TaxonomyEdge } from '../vital-core/vitalTaxonomyedge';
+import { VitalSignsPropertyDefinition } from '@vital-ai/vital-model-utils';
+
+/**
+ * VitalSigns class: http://vital.ai/ontology/vital-nlp#Edge_hasPhraseNormalizedEntity
+ */
+export class Edge_hasPhraseNormalizedEntity extends VITAL_TaxonomyEdge {
+
+
+
+  constructor() {
+    super();
+    this.vitaltype = 'http://vital.ai/ontology/vital-nlp#Edge_hasPhraseNormalizedEntity';
+  }
+
+  /**
+   * Get property definitions for Edge_hasPhraseNormalizedEntity
+   */
+  getPropertyDefinitions(): VitalSignsPropertyDefinition[] {
+    return [
+      ...super.getPropertyDefinitions(),
+
+    ];
+  }
+
+
+  /**
+   * Get the VitalSigns type URI for Edge_hasPhraseNormalizedEntity
+   */
+  static getVitalType(): string {
+    return 'http://vital.ai/ontology/vital-nlp#Edge_hasPhraseNormalizedEntity';
+  }
+}

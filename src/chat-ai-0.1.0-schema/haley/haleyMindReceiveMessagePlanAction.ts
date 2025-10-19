@@ -1,0 +1,27 @@
+import { HaleyMindPlanAction } from './haleyMindPlanAction';
+import { VitalSignsPropertyDefinition } from '@vital-ai/vital-model-utils';
+
+/**
+ * VitalSigns class: http://vital.ai/ontology/haley#HaleyMindReceiveMessagePlanAction
+ */
+export class HaleyMindReceiveMessagePlanAction extends HaleyMindPlanAction {
+
+
+
+  constructor() {
+    super();
+    this.vitaltype = 'http://vital.ai/ontology/haley#HaleyMindReceiveMessagePlanAction';
+  }
+
+  /**
+   * Get property definitions for HaleyMindReceiveMessagePlanAction
+   */
+  getPropertyDefinitions(): VitalSignsPropertyDefinition[] {
+    return [
+      ...super.getPropertyDefinitions(),
+
+    ];
+  }
+
+
+}

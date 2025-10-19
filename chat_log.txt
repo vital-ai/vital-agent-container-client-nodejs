@@ -1,0 +1,262 @@
+
+
+2025-10-19 12:59:50,500 - INFO - Chat UI Starting Up...
+2025-10-19 12:59:50,520 - INFO - Chat UI Config Loaded.
+2025-10-19 12:59:50,549 - INFO - Session ID: 4324195200
+
+
+
+2025-10-19 13:00:03,023 - INFO - Chat UI Starting Up...
+2025-10-19 13:00:03,028 - INFO - Chat UI Config Loaded.
+2025-10-19 13:00:03,035 - INFO - Session ID: 4324195200
+2025-10-19 13:00:03,132 - INFO - HTTP Request: GET http://localhost:8000/haleyagent/health "HTTP/1.1 200 OK"
+2025-10-19 13:00:03,133 - INFO - Health:
+2025-10-19 13:00:03,183 - INFO - Message JSON: [
+  {
+    "URI": "http://vital.ai/vital.ai/vitalsigns/a26696aa-e9b2-4693-bf14-12caeab36243",
+    "http://vital.ai/ontology/vital#hasAccountURI": "urn:account_1",
+    "http://vital.ai/ontology/vital-core#hasUsername": "Marc Hadfield",
+    "http://vital.ai/ontology/vital-aimp#hasUserID": "marc@example.com",
+    "http://vital.ai/ontology/vital-core#hasSessionID": "4324195200",
+    "http://vital.ai/ontology/vital-aimp#hasAuthSessionID": "4324195200",
+    "type": "http://vital.ai/ontology/chat-ai#HaleyChatIntent",
+    "http://vital.ai/ontology/vital-core#vitaltype": "http://vital.ai/ontology/chat-ai#HaleyChatIntent",
+    "types": [
+      "http://vital.ai/ontology/chat-ai#HaleyChatIntent"
+    ]
+  },
+  {
+    "URI": "http://vital.ai/vital.ai/vitalsigns/131e02fe-8398-472b-81cd-55e502f37514",
+    "http://vital.ai/ontology/chat-ai#hasChatTextMessage": "hello, what is your name",
+    "type": "http://vital.ai/ontology/chat-ai#HaleyChatUserMessage",
+    "http://vital.ai/ontology/vital-core#vitaltype": "http://vital.ai/ontology/chat-ai#HaleyChatUserMessage",
+    "types": [
+      "http://vital.ai/ontology/chat-ai#HaleyChatUserMessage"
+    ]
+  },
+  {
+    "URI": "http://vital.ai/vital.ai/vitalsigns/51544d0a-a2cc-4162-ad7a-773ea1eb8385",
+    "http://vital.ai/ontology/chat-ai#hasHaleyChatInteractionModelTypeURI": "http://vital.ai/ontology/chat-ai#HaleyChatInteractionModelType_OpenAI_ChatGPT_4o",
+    "http://vital.ai/ontology/chat-ai#hasHaleyChatInteractionTypeURI": "http://vital.ai/ontology/chat-ai#HaleyChatInteraction_CHAT_KG",
+    "type": "http://vital.ai/ontology/chat-ai#HaleyChatInteraction",
+    "http://vital.ai/ontology/vital-core#vitaltype": "http://vital.ai/ontology/chat-ai#HaleyChatInteraction",
+    "types": [
+      "http://vital.ai/ontology/chat-ai#HaleyChatInteraction"
+    ]
+  },
+  {
+    "URI": "http://vital.ai/vital.ai/vitalsigns/944bc008-d3d0-462c-b4d1-afc99f8b18a6",
+    "http://vital.ai/ontology/haley-ai-question#hasSerializedContainer": "WwogIHsKICAgICJVUkkiOiAiaHR0cDovL3ZpdGFsLmFpL3ZpdGFsLmFpL3ZpdGFsc2lnbnMvNTE1NDRkMGEtYTJjYy00MTYyLWFkN2EtNzczZWExZWI4Mzg1IiwKICAgICJodHRwOi8vdml0YWwuYWkvb250b2xvZ3kvY2hhdC1haSNoYXNIYWxleUNoYXRJbnRlcmFjdGlvbk1vZGVsVHlwZVVSSSI6ICJodHRwOi8vdml0YWwuYWkvb250b2xvZ3kvY2hhdC1haSNIYWxleUNoYXRJbnRlcmFjdGlvbk1vZGVsVHlwZV9PcGVuQUlfQ2hhdEdQVF80byIsCiAgICAiaHR0cDovL3ZpdGFsLmFpL29udG9sb2d5L2NoYXQtYWkjaGFzSGFsZXlDaGF0SW50ZXJhY3Rpb25UeXBlVVJJIjogImh0dHA6Ly92aXRhbC5haS9vbnRvbG9neS9jaGF0LWFpI0hhbGV5Q2hhdEludGVyYWN0aW9uX0NIQVRfS0ciLAogICAgInR5cGUiOiAiaHR0cDovL3ZpdGFsLmFpL29udG9sb2d5L2NoYXQtYWkjSGFsZXlDaGF0SW50ZXJhY3Rpb24iLAogICAgImh0dHA6Ly92aXRhbC5haS9vbnRvbG9neS92aXRhbC1jb3JlI3ZpdGFsdHlwZSI6ICJodHRwOi8vdml0YWwuYWkvb250b2xvZ3kvY2hhdC1haSNIYWxleUNoYXRJbnRlcmFjdGlvbiIsCiAgICAidHlwZXMiOiBbCiAgICAgICJodHRwOi8vdml0YWwuYWkvb250b2xvZ3kvY2hhdC1haSNIYWxleUNoYXRJbnRlcmFjdGlvbiIKICAgIF0KICB9Cl0=",
+    "type": "http://vital.ai/ontology/haley-ai-question#HaleyContainer",
+    "http://vital.ai/ontology/vital-core#vitaltype": "http://vital.ai/ontology/haley-ai-question#HaleyContainer",
+    "types": [
+      "http://vital.ai/ontology/haley-ai-question#HaleyContainer"
+    ]
+  }
+]
+2025-10-19 13:00:03,400 - INFO - Websocket Received message: [
+  {
+    "URI": "http://vital.ai/vital.ai/vitalsigns/a593da2d-88f8-4c31-80fe-0dab8d554c04",
+    "http://vital.ai/ontology/vital-aimp#hasServerSentEventJSON": "{\"choices\":[{\"index\":0,\"delta\":{\"content\":\"<span>&#8203;</span>\"}}]}\n\n",
+    "type": "http://vital.ai/ontology/vital-aimp#HaleyRealtimeMessage",
+    "http://vital.ai/ontology/vital-core#vitaltype": "http://vital.ai/ontology/vital-aimp#HaleyRealtimeMessage",
+    "types": [
+      "http://vital.ai/ontology/vital-aimp#HaleyRealtimeMessage"
+    ]
+  }
+]
+2025-10-19 13:00:03,400 - INFO - Local Handler Received message: [{'URI': 'http://vital.ai/vital.ai/vitalsigns/a593da2d-88f8-4c31-80fe-0dab8d554c04', 'http://vital.ai/ontology/vital-aimp#hasServerSentEventJSON': '{"choices":[{"index":0,"delta":{"content":"<span>&#8203;</span>"}}]}\n\n', 'type': 'http://vital.ai/ontology/vital-aimp#HaleyRealtimeMessage', 'http://vital.ai/ontology/vital-core#vitaltype': 'http://vital.ai/ontology/vital-aimp#HaleyRealtimeMessage', 'types': ['http://vital.ai/ontology/vital-aimp#HaleyRealtimeMessage']}]
+2025-10-19 13:00:03,560 - INFO - Websocket Received message: [
+  {
+    "URI": "http://vital.ai/vital.ai/vitalsigns/3954d3a6-3617-4784-a63d-ef96209eff70",
+    "type": "http://vital.ai/ontology/vital-aimp#ThinkingMessage",
+    "http://vital.ai/ontology/vital-core#vitaltype": "http://vital.ai/ontology/vital-aimp#ThinkingMessage",
+    "types": [
+      "http://vital.ai/ontology/vital-aimp#ThinkingMessage"
+    ]
+  }
+]
+2025-10-19 13:00:03,560 - INFO - Local Handler Received message: [{'URI': 'http://vital.ai/vital.ai/vitalsigns/3954d3a6-3617-4784-a63d-ef96209eff70', 'type': 'http://vital.ai/ontology/vital-aimp#ThinkingMessage', 'http://vital.ai/ontology/vital-core#vitaltype': 'http://vital.ai/ontology/vital-aimp#ThinkingMessage', 'types': ['http://vital.ai/ontology/vital-aimp#ThinkingMessage']}]
+2025-10-19 13:00:03,560 - INFO - Websocket Received message: [
+  {
+    "URI": "http://vital.ai/vital.ai/vitalsigns/54fbfe5f-335a-4326-8737-b9b8b56bd4c0",
+    "http://vital.ai/ontology/chat-ai#hasHaleyChatInteractionURI": "http://vital.ai/vital.ai/vitalsigns/51544d0a-a2cc-4162-ad7a-773ea1eb8385",
+    "http://vital.ai/ontology/chat-ai#hasHaleyChatThoughtText": "[started thinking]",
+    "http://vital.ai/ontology/chat-ai#isChatPartialMessage": true,
+    "type": "http://vital.ai/ontology/chat-ai#HaleyChatAgentThought",
+    "http://vital.ai/ontology/vital-core#vitaltype": "http://vital.ai/ontology/chat-ai#HaleyChatAgentThought",
+    "types": [
+      "http://vital.ai/ontology/chat-ai#HaleyChatAgentThought"
+    ]
+  }
+]
+2025-10-19 13:00:03,560 - INFO - Local Handler Received message: [{'URI': 'http://vital.ai/vital.ai/vitalsigns/54fbfe5f-335a-4326-8737-b9b8b56bd4c0', 'http://vital.ai/ontology/chat-ai#hasHaleyChatInteractionURI': 'http://vital.ai/vital.ai/vitalsigns/51544d0a-a2cc-4162-ad7a-773ea1eb8385', 'http://vital.ai/ontology/chat-ai#hasHaleyChatThoughtText': '[started thinking]', 'http://vital.ai/ontology/chat-ai#isChatPartialMessage': True, 'type': 'http://vital.ai/ontology/chat-ai#HaleyChatAgentThought', 'http://vital.ai/ontology/vital-core#vitaltype': 'http://vital.ai/ontology/chat-ai#HaleyChatAgentThought', 'types': ['http://vital.ai/ontology/chat-ai#HaleyChatAgentThought']}]
+2025-10-19 13:00:03,577 - INFO - Websocket Received message: [
+  {
+    "URI": "http://vital.ai/vital.ai/vitalsigns/3d88b76e-ce3f-43b1-9ac5-c7531f4bc405",
+    "http://vital.ai/ontology/chat-ai#hasHaleyChatInteractionURI": "http://vital.ai/vital.ai/vitalsigns/51544d0a-a2cc-4162-ad7a-773ea1eb8385",
+    "http://vital.ai/ontology/chat-ai#hasHaleyChatThoughtText": "[determining objective]",
+    "http://vital.ai/ontology/chat-ai#isChatPartialMessage": true,
+    "type": "http://vital.ai/ontology/chat-ai#HaleyChatAgentThought",
+    "http://vital.ai/ontology/vital-core#vitaltype": "http://vital.ai/ontology/chat-ai#HaleyChatAgentThought",
+    "types": [
+      "http://vital.ai/ontology/chat-ai#HaleyChatAgentThought"
+    ]
+  }
+]
+2025-10-19 13:00:03,577 - INFO - Local Handler Received message: [{'URI': 'http://vital.ai/vital.ai/vitalsigns/3d88b76e-ce3f-43b1-9ac5-c7531f4bc405', 'http://vital.ai/ontology/chat-ai#hasHaleyChatInteractionURI': 'http://vital.ai/vital.ai/vitalsigns/51544d0a-a2cc-4162-ad7a-773ea1eb8385', 'http://vital.ai/ontology/chat-ai#hasHaleyChatThoughtText': '[determining objective]', 'http://vital.ai/ontology/chat-ai#isChatPartialMessage': True, 'type': 'http://vital.ai/ontology/chat-ai#HaleyChatAgentThought', 'http://vital.ai/ontology/vital-core#vitaltype': 'http://vital.ai/ontology/chat-ai#HaleyChatAgentThought', 'types': ['http://vital.ai/ontology/chat-ai#HaleyChatAgentThought']}]
+2025-10-19 13:00:04,689 - INFO - Websocket Received message: [
+  {
+    "URI": "http://vital.ai/vital.ai/vitalsigns/732a9365-0526-4633-ac2c-95e5aa2081f7",
+    "http://vital.ai/ontology/chat-ai#hasHaleyChatInteractionURI": "http://vital.ai/vital.ai/vitalsigns/51544d0a-a2cc-4162-ad7a-773ea1eb8385",
+    "http://vital.ai/ontology/chat-ai#hasHaleyChatThoughtText": "[completed determining objective.]",
+    "http://vital.ai/ontology/chat-ai#isChatPartialMessage": true,
+    "type": "http://vital.ai/ontology/chat-ai#HaleyChatAgentThought",
+    "http://vital.ai/ontology/vital-core#vitaltype": "http://vital.ai/ontology/chat-ai#HaleyChatAgentThought",
+    "types": [
+      "http://vital.ai/ontology/chat-ai#HaleyChatAgentThought"
+    ]
+  }
+]
+2025-10-19 13:00:04,689 - INFO - Local Handler Received message: [{'URI': 'http://vital.ai/vital.ai/vitalsigns/732a9365-0526-4633-ac2c-95e5aa2081f7', 'http://vital.ai/ontology/chat-ai#hasHaleyChatInteractionURI': 'http://vital.ai/vital.ai/vitalsigns/51544d0a-a2cc-4162-ad7a-773ea1eb8385', 'http://vital.ai/ontology/chat-ai#hasHaleyChatThoughtText': '[completed determining objective.]', 'http://vital.ai/ontology/chat-ai#isChatPartialMessage': True, 'type': 'http://vital.ai/ontology/chat-ai#HaleyChatAgentThought', 'http://vital.ai/ontology/vital-core#vitaltype': 'http://vital.ai/ontology/chat-ai#HaleyChatAgentThought', 'types': ['http://vital.ai/ontology/chat-ai#HaleyChatAgentThought']}]
+2025-10-19 13:00:04,697 - INFO - Websocket Received message: [
+  {
+    "URI": "http://vital.ai/vital.ai/vitalsigns/c846745c-8d2d-4530-829f-960d50f6cfeb",
+    "http://vital.ai/ontology/chat-ai#hasHaleyChatInteractionURI": "http://vital.ai/vital.ai/vitalsigns/51544d0a-a2cc-4162-ad7a-773ea1eb8385",
+    "http://vital.ai/ontology/chat-ai#hasHaleyChatThoughtText": "[calling model]",
+    "http://vital.ai/ontology/chat-ai#isChatPartialMessage": true,
+    "type": "http://vital.ai/ontology/chat-ai#HaleyChatAgentThought",
+    "http://vital.ai/ontology/vital-core#vitaltype": "http://vital.ai/ontology/chat-ai#HaleyChatAgentThought",
+    "types": [
+      "http://vital.ai/ontology/chat-ai#HaleyChatAgentThought"
+    ]
+  }
+]
+2025-10-19 13:00:04,697 - INFO - Local Handler Received message: [{'URI': 'http://vital.ai/vital.ai/vitalsigns/c846745c-8d2d-4530-829f-960d50f6cfeb', 'http://vital.ai/ontology/chat-ai#hasHaleyChatInteractionURI': 'http://vital.ai/vital.ai/vitalsigns/51544d0a-a2cc-4162-ad7a-773ea1eb8385', 'http://vital.ai/ontology/chat-ai#hasHaleyChatThoughtText': '[calling model]', 'http://vital.ai/ontology/chat-ai#isChatPartialMessage': True, 'type': 'http://vital.ai/ontology/chat-ai#HaleyChatAgentThought', 'http://vital.ai/ontology/vital-core#vitaltype': 'http://vital.ai/ontology/chat-ai#HaleyChatAgentThought', 'types': ['http://vital.ai/ontology/chat-ai#HaleyChatAgentThought']}]
+2025-10-19 13:00:06,309 - INFO - Websocket Received message: [
+  {
+    "URI": "http://vital.ai/vital.ai/vitalsigns/be99b6c2-2ffe-4258-b8e1-544452c9a819",
+    "http://vital.ai/ontology/chat-ai#hasHaleyChatInteractionURI": "http://vital.ai/vital.ai/vitalsigns/51544d0a-a2cc-4162-ad7a-773ea1eb8385",
+    "http://vital.ai/ontology/chat-ai#hasHaleyChatThoughtText": "[completed calling tools.]",
+    "http://vital.ai/ontology/chat-ai#isChatPartialMessage": true,
+    "type": "http://vital.ai/ontology/chat-ai#HaleyChatAgentThought",
+    "http://vital.ai/ontology/vital-core#vitaltype": "http://vital.ai/ontology/chat-ai#HaleyChatAgentThought",
+    "types": [
+      "http://vital.ai/ontology/chat-ai#HaleyChatAgentThought"
+    ]
+  }
+]
+2025-10-19 13:00:06,310 - INFO - Local Handler Received message: [{'URI': 'http://vital.ai/vital.ai/vitalsigns/be99b6c2-2ffe-4258-b8e1-544452c9a819', 'http://vital.ai/ontology/chat-ai#hasHaleyChatInteractionURI': 'http://vital.ai/vital.ai/vitalsigns/51544d0a-a2cc-4162-ad7a-773ea1eb8385', 'http://vital.ai/ontology/chat-ai#hasHaleyChatThoughtText': '[completed calling tools.]', 'http://vital.ai/ontology/chat-ai#isChatPartialMessage': True, 'type': 'http://vital.ai/ontology/chat-ai#HaleyChatAgentThought', 'http://vital.ai/ontology/vital-core#vitaltype': 'http://vital.ai/ontology/chat-ai#HaleyChatAgentThought', 'types': ['http://vital.ai/ontology/chat-ai#HaleyChatAgentThought']}]
+2025-10-19 13:00:06,319 - INFO - Websocket Received message: [
+  {
+    "URI": "http://vital.ai/vital.ai/vitalsigns/b9f7a54f-2e4f-48fc-b376-69309d7c7e69",
+    "http://vital.ai/ontology/chat-ai#hasHaleyChatInteractionURI": "http://vital.ai/vital.ai/vitalsigns/51544d0a-a2cc-4162-ad7a-773ea1eb8385",
+    "http://vital.ai/ontology/chat-ai#hasHaleyChatThoughtText": "[composing final response]",
+    "http://vital.ai/ontology/chat-ai#isChatPartialMessage": true,
+    "type": "http://vital.ai/ontology/chat-ai#HaleyChatAgentThought",
+    "http://vital.ai/ontology/vital-core#vitaltype": "http://vital.ai/ontology/chat-ai#HaleyChatAgentThought",
+    "types": [
+      "http://vital.ai/ontology/chat-ai#HaleyChatAgentThought"
+    ]
+  }
+]
+2025-10-19 13:00:06,324 - INFO - Local Handler Received message: [{'URI': 'http://vital.ai/vital.ai/vitalsigns/b9f7a54f-2e4f-48fc-b376-69309d7c7e69', 'http://vital.ai/ontology/chat-ai#hasHaleyChatInteractionURI': 'http://vital.ai/vital.ai/vitalsigns/51544d0a-a2cc-4162-ad7a-773ea1eb8385', 'http://vital.ai/ontology/chat-ai#hasHaleyChatThoughtText': '[composing final response]', 'http://vital.ai/ontology/chat-ai#isChatPartialMessage': True, 'type': 'http://vital.ai/ontology/chat-ai#HaleyChatAgentThought', 'http://vital.ai/ontology/vital-core#vitaltype': 'http://vital.ai/ontology/chat-ai#HaleyChatAgentThought', 'types': ['http://vital.ai/ontology/chat-ai#HaleyChatAgentThought']}]
+2025-10-19 13:00:06,324 - INFO - Websocket Received message: [
+  {
+    "URI": "http://vital.ai/vital.ai/vitalsigns/51bbaeaa-fdea-4793-81bf-1f297921d390",
+    "http://vital.ai/ontology/chat-ai#hasHaleyChatInteractionURI": "http://vital.ai/vital.ai/vitalsigns/51544d0a-a2cc-4162-ad7a-773ea1eb8385",
+    "http://vital.ai/ontology/chat-ai#hasHaleyChatThoughtText": "[deciding final response payloads.]",
+    "http://vital.ai/ontology/chat-ai#isChatPartialMessage": true,
+    "type": "http://vital.ai/ontology/chat-ai#HaleyChatAgentThought",
+    "http://vital.ai/ontology/vital-core#vitaltype": "http://vital.ai/ontology/chat-ai#HaleyChatAgentThought",
+    "types": [
+      "http://vital.ai/ontology/chat-ai#HaleyChatAgentThought"
+    ]
+  }
+]
+2025-10-19 13:00:06,325 - INFO - Local Handler Received message: [{'URI': 'http://vital.ai/vital.ai/vitalsigns/51bbaeaa-fdea-4793-81bf-1f297921d390', 'http://vital.ai/ontology/chat-ai#hasHaleyChatInteractionURI': 'http://vital.ai/vital.ai/vitalsigns/51544d0a-a2cc-4162-ad7a-773ea1eb8385', 'http://vital.ai/ontology/chat-ai#hasHaleyChatThoughtText': '[deciding final response payloads.]', 'http://vital.ai/ontology/chat-ai#isChatPartialMessage': True, 'type': 'http://vital.ai/ontology/chat-ai#HaleyChatAgentThought', 'http://vital.ai/ontology/vital-core#vitaltype': 'http://vital.ai/ontology/chat-ai#HaleyChatAgentThought', 'types': ['http://vital.ai/ontology/chat-ai#HaleyChatAgentThought']}]
+2025-10-19 13:00:07,660 - INFO - Websocket Received message: [
+  {
+    "URI": "http://vital.ai/vital.ai/vitalsigns/a55f353d-ef4e-4819-9827-52d5a9a5e4f6",
+    "type": "http://vital.ai/ontology/vital-aimp#ThinkingMessage",
+    "http://vital.ai/ontology/vital-core#vitaltype": "http://vital.ai/ontology/vital-aimp#ThinkingMessage",
+    "types": [
+      "http://vital.ai/ontology/vital-aimp#ThinkingMessage"
+    ]
+  }
+]
+2025-10-19 13:00:07,660 - INFO - Local Handler Received message: [{'URI': 'http://vital.ai/vital.ai/vitalsigns/a55f353d-ef4e-4819-9827-52d5a9a5e4f6', 'type': 'http://vital.ai/ontology/vital-aimp#ThinkingMessage', 'http://vital.ai/ontology/vital-core#vitaltype': 'http://vital.ai/ontology/vital-aimp#ThinkingMessage', 'types': ['http://vital.ai/ontology/vital-aimp#ThinkingMessage']}]
+2025-10-19 13:00:08,078 - INFO - Websocket Received message: [
+  {
+    "URI": "http://vital.ai/vital.ai/vitalsigns/4280b470-0200-48c9-be1b-acb41f74019f",
+    "http://vital.ai/ontology/chat-ai#hasHaleyChatInteractionURI": "http://vital.ai/vital.ai/vitalsigns/51544d0a-a2cc-4162-ad7a-773ea1eb8385",
+    "http://vital.ai/ontology/chat-ai#hasHaleyChatThoughtText": "[sending final response.]",
+    "http://vital.ai/ontology/chat-ai#isChatPartialMessage": true,
+    "type": "http://vital.ai/ontology/chat-ai#HaleyChatAgentThought",
+    "http://vital.ai/ontology/vital-core#vitaltype": "http://vital.ai/ontology/chat-ai#HaleyChatAgentThought",
+    "types": [
+      "http://vital.ai/ontology/chat-ai#HaleyChatAgentThought"
+    ]
+  }
+]
+2025-10-19 13:00:08,079 - INFO - Local Handler Received message: [{'URI': 'http://vital.ai/vital.ai/vitalsigns/4280b470-0200-48c9-be1b-acb41f74019f', 'http://vital.ai/ontology/chat-ai#hasHaleyChatInteractionURI': 'http://vital.ai/vital.ai/vitalsigns/51544d0a-a2cc-4162-ad7a-773ea1eb8385', 'http://vital.ai/ontology/chat-ai#hasHaleyChatThoughtText': '[sending final response.]', 'http://vital.ai/ontology/chat-ai#isChatPartialMessage': True, 'type': 'http://vital.ai/ontology/chat-ai#HaleyChatAgentThought', 'http://vital.ai/ontology/vital-core#vitaltype': 'http://vital.ai/ontology/chat-ai#HaleyChatAgentThought', 'types': ['http://vital.ai/ontology/chat-ai#HaleyChatAgentThought']}]
+2025-10-19 13:00:08,092 - INFO - Websocket Received message: [
+  {
+    "URI": "http://vital.ai/vital.ai/vitalsigns/918bdc3a-85ce-4a80-8080-dc46b3b12a42",
+    "http://vital.ai/ontology/vital-aimp#hasServerSentEventJSON": "{\"choices\":[{\"index\":0,\"delta\":{\"content\":\"Hello, my name is Haley. How can I assist you today?\"}}]}\n\n",
+    "type": "http://vital.ai/ontology/vital-aimp#HaleyRealtimeMessage",
+    "http://vital.ai/ontology/vital-core#vitaltype": "http://vital.ai/ontology/vital-aimp#HaleyRealtimeMessage",
+    "types": [
+      "http://vital.ai/ontology/vital-aimp#HaleyRealtimeMessage"
+    ]
+  }
+]
+2025-10-19 13:00:08,092 - INFO - Local Handler Received message: [{'URI': 'http://vital.ai/vital.ai/vitalsigns/918bdc3a-85ce-4a80-8080-dc46b3b12a42', 'http://vital.ai/ontology/vital-aimp#hasServerSentEventJSON': '{"choices":[{"index":0,"delta":{"content":"Hello, my name is Haley. How can I assist you today?"}}]}\n\n', 'type': 'http://vital.ai/ontology/vital-aimp#HaleyRealtimeMessage', 'http://vital.ai/ontology/vital-core#vitaltype': 'http://vital.ai/ontology/vital-aimp#HaleyRealtimeMessage', 'types': ['http://vital.ai/ontology/vital-aimp#HaleyRealtimeMessage']}]
+2025-10-19 13:00:08,197 - INFO - Websocket Received message: [
+  {
+    "URI": "http://vital.ai/vital.ai/vitalsigns/06b71bba-5c78-4049-bb00-eed0db4e0249",
+    "http://vital.ai/ontology/vital-aimp#hasChatTaskStagesJSON": "[{\"type\": \"chain\", \"stages\": [], \"models\": [{\"id\": 1, \"model_type\": \"http://vital.ai/ontology/chat-ai#HaleyChatInteractionModelType_OpenAI_ChatGPT_4o\", \"model_provider\": \"openai\", \"model_id\": \"gpt-4o\", \"prompt_token_count\": 100, \"completion_token_count\": 100, \"token_count\": 200, \"generation_cost\": 0.01}], \"tools\": [{\"tool\": \"weather\", \"request_count\": 1}, {\"tool\": \"google_search\", \"request_count\": 5}]}]",
+    "http://vital.ai/ontology/vital-aimp#hasAIMPTaskStatusURI": "http://vital.ai/ontology/vital-aimp#AIMPTaskStatus_COMPLETE",
+    "http://vital.ai/ontology/vital-aimp#hasAIMPTaskProgressURI": "http://vital.ai/ontology/vital-aimp#AIMPTaskProgress_COMPLETE",
+    "http://vital.ai/ontology/vital-aimp#hasChatTaskStartDateTime": "2025-10-19T17:00:03.216000",
+    "http://vital.ai/ontology/vital-aimp#hasChatTaskEndDateTime": "2025-10-19T17:00:08.190000",
+    "http://vital.ai/ontology/vital-aimp#hasChatTaskDeltaTime": 4974,
+    "http://vital.ai/ontology/vital-aimp#hasTimezone": "America/New_York",
+    "http://vital.ai/ontology/vital-aimp#isDaylightSavingsTime": true,
+    "type": "http://vital.ai/ontology/vital-aimp#AIMPTask",
+    "http://vital.ai/ontology/vital-core#vitaltype": "http://vital.ai/ontology/vital-aimp#AIMPTask",
+    "types": [
+      "http://vital.ai/ontology/vital-aimp#AIMPTask"
+    ]
+  },
+  {
+    "URI": "http://vital.ai/vital.ai/vitalsigns/f2930cc3-cb53-43e7-9f70-e22f075385de",
+    "http://vital.ai/ontology/chat-ai#hasChatGeneratedMessage": "Hello, my name is Haley. How can I assist you today?",
+    "type": "http://vital.ai/ontology/chat-ai#HaleyChatBotMessage",
+    "http://vital.ai/ontology/vital-core#vitaltype": "http://vital.ai/ontology/chat-ai#HaleyChatBotMessage",
+    "types": [
+      "http://vital.ai/ontology/chat-ai#HaleyChatBotMessage"
+    ]
+  },
+  {
+    "URI": "http://vital.ai/vital.ai/vitalsigns/1ff2887f-b6a1-4a52-8923-c3be3e083e2a",
+    "type": "http://vital.ai/ontology/vital-aimp#AIMPMessageContainer",
+    "http://vital.ai/ontology/vital-core#vitaltype": "http://vital.ai/ontology/vital-aimp#AIMPMessageContainer",
+    "types": [
+      "http://vital.ai/ontology/vital-aimp#AIMPMessageContainer"
+    ]
+  },
+  {
+    "URI": "http://vital.ai/vital.ai/vitalsigns/aca13a0d-23c9-4f50-96ef-63c56b8d9e7f",
+    "type": "http://vital.ai/ontology/vital-aimp#AIMPMessageContainer",
+    "http://vital.ai/ontology/vital-core#vitaltype": "http://vital.ai/ontology/vital-aimp#AIMPMessageContainer",
+    "types": [
+      "http://vital.ai/ontology/vital-aimp#AIMPMessageContainer"
+    ]
+  }
+]
+2025-10-19 13:00:08,197 - INFO - Local Handler Received message: [{'URI': 'http://vital.ai/vital.ai/vitalsigns/06b71bba-5c78-4049-bb00-eed0db4e0249', 'http://vital.ai/ontology/vital-aimp#hasChatTaskStagesJSON': '[{"type": "chain", "stages": [], "models": [{"id": 1, "model_type": "http://vital.ai/ontology/chat-ai#HaleyChatInteractionModelType_OpenAI_ChatGPT_4o", "model_provider": "openai", "model_id": "gpt-4o", "prompt_token_count": 100, "completion_token_count": 100, "token_count": 200, "generation_cost": 0.01}], "tools": [{"tool": "weather", "request_count": 1}, {"tool": "google_search", "request_count": 5}]}]', 'http://vital.ai/ontology/vital-aimp#hasAIMPTaskStatusURI': 'http://vital.ai/ontology/vital-aimp#AIMPTaskStatus_COMPLETE', 'http://vital.ai/ontology/vital-aimp#hasAIMPTaskProgressURI': 'http://vital.ai/ontology/vital-aimp#AIMPTaskProgress_COMPLETE', 'http://vital.ai/ontology/vital-aimp#hasChatTaskStartDateTime': '2025-10-19T17:00:03.216000', 'http://vital.ai/ontology/vital-aimp#hasChatTaskEndDateTime': '2025-10-19T17:00:08.190000', 'http://vital.ai/ontology/vital-aimp#hasChatTaskDeltaTime': 4974, 'http://vital.ai/ontology/vital-aimp#hasTimezone': 'America/New_York', 'http://vital.ai/ontology/vital-aimp#isDaylightSavingsTime': True, 'type': 'http://vital.ai/ontology/vital-aimp#AIMPTask', 'http://vital.ai/ontology/vital-core#vitaltype': 'http://vital.ai/ontology/vital-aimp#AIMPTask', 'types': ['http://vital.ai/ontology/vital-aimp#AIMPTask']}, {'URI': 'http://vital.ai/vital.ai/vitalsigns/f2930cc3-cb53-43e7-9f70-e22f075385de', 'http://vital.ai/ontology/chat-ai#hasChatGeneratedMessage': 'Hello, my name is Haley. How can I assist you today?', 'type': 'http://vital.ai/ontology/chat-ai#HaleyChatBotMessage', 'http://vital.ai/ontology/vital-core#vitaltype': 'http://vital.ai/ontology/chat-ai#HaleyChatBotMessage', 'types': ['http://vital.ai/ontology/chat-ai#HaleyChatBotMessage']}, {'URI': 'http://vital.ai/vital.ai/vitalsigns/1ff2887f-b6a1-4a52-8923-c3be3e083e2a', 'type': 'http://vital.ai/ontology/vital-aimp#AIMPMessageContainer', 'http://vital.ai/ontology/vital-core#vitaltype': 'http://vital.ai/ontology/vital-aimp#AIMPMessageContainer', 'types': ['http://vital.ai/ontology/vital-aimp#AIMPMessageContainer']}, {'URI': 'http://vital.ai/vital.ai/vitalsigns/aca13a0d-23c9-4f50-96ef-63c56b8d9e7f', 'type': 'http://vital.ai/ontology/vital-aimp#AIMPMessageContainer', 'http://vital.ai/ontology/vital-core#vitaltype': 'http://vital.ai/ontology/vital-aimp#AIMPMessageContainer', 'types': ['http://vital.ai/ontology/vital-aimp#AIMPMessageContainer']}]
+2025-10-19 13:00:11,776 - INFO - Client Closed
+2025-10-19 13:00:11,778 - INFO - Response Text: 
+Hello, my name is Haley. How can I assist you today?
+

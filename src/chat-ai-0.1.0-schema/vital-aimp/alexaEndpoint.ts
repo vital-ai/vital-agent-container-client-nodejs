@@ -1,0 +1,32 @@
+import { Endpoint } from './endpoint';
+import { VitalSignsPropertyDefinition } from '@vital-ai/vital-model-utils';
+
+/**
+ * VitalSigns class: http://vital.ai/ontology/vital-aimp#AlexaEndpoint
+ */
+export class AlexaEndpoint extends Endpoint {
+  public alexaUserID?: string;
+
+
+  constructor() {
+    super();
+    this.vitaltype = 'http://vital.ai/ontology/vital-aimp#AlexaEndpoint';
+  }
+
+  /**
+   * Get property definitions for AlexaEndpoint
+   */
+  getPropertyDefinitions(): VitalSignsPropertyDefinition[] {
+    return [
+      ...super.getPropertyDefinitions(),
+      {
+        propertyURI: 'http://vital.ai/ontology/vital-aimp#hasAlexaUserID',
+        tsPropertyName: 'alexaUserID',
+        type: 'string',
+        required: false
+      }
+    ];
+  }
+
+
+}

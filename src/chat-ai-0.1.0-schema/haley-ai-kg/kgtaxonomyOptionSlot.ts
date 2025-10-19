@@ -1,0 +1,34 @@
+import { KGSlot } from './kgslot';
+import { VitalSignsPropertyDefinition } from '@vital-ai/vital-model-utils';
+
+/**
+ * VitalSigns class: http://vital.ai/ontology/haley-ai-kg#KGTaxonomyOptionSlot
+ */
+export class KGTaxonomyOptionSlot extends KGSlot {
+  /** URI reference to one of: HaleyTaxonomy, KGCategoryType */
+  public kGTaxonomyOptionURI?: string;
+
+
+  constructor() {
+    super();
+    this.vitaltype = 'http://vital.ai/ontology/haley-ai-kg#KGTaxonomyOptionSlot';
+  }
+
+  /**
+   * Get property definitions for KGTaxonomyOptionSlot
+   */
+  getPropertyDefinitions(): VitalSignsPropertyDefinition[] {
+    return [
+      ...super.getPropertyDefinitions(),
+      {
+        propertyURI: 'http://vital.ai/ontology/haley-ai-kg#hasKGTaxonomyOptionURI',
+        tsPropertyName: 'kGTaxonomyOptionURI',
+        type: 'http://vital.ai/ontology/haley-ai-question#HaleyTaxonomy | http://vital.ai/ontology/haley-ai-kg#KGCategoryType',
+        required: false,
+        format: 'uri'
+      }
+    ];
+  }
+
+
+}

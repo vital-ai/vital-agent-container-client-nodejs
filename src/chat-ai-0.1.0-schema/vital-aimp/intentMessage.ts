@@ -1,0 +1,39 @@
+import { CommandMessage } from './commandMessage';
+import { VitalSignsPropertyDefinition } from '@vital-ai/vital-model-utils';
+
+/**
+ * VitalSigns class: http://vital.ai/ontology/vital-aimp#IntentMessage
+ */
+export class IntentMessage extends CommandMessage {
+  public intent?: string;
+  public propertyValue?: string;
+
+
+  constructor() {
+    super();
+    this.vitaltype = 'http://vital.ai/ontology/vital-aimp#IntentMessage';
+  }
+
+  /**
+   * Get property definitions for IntentMessage
+   */
+  getPropertyDefinitions(): VitalSignsPropertyDefinition[] {
+    return [
+      ...super.getPropertyDefinitions(),
+      {
+        propertyURI: 'http://vital.ai/ontology/vital-aimp#hasIntent',
+        tsPropertyName: 'intent',
+        type: 'string',
+        required: false
+      },
+      {
+        propertyURI: 'http://vital.ai/ontology/vital-aimp#hasPropertyValue',
+        tsPropertyName: 'propertyValue',
+        type: 'string',
+        required: false
+      }
+    ];
+  }
+
+
+}

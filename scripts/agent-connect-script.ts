@@ -20,11 +20,12 @@ import { VitalAgentClient, ConnectionStatus } from '../src/client';
 // Configuration
 const DEFAULT_HOST = 'localhost';
 const DEFAULT_PORT = 8000;
+const DEFAULT_PATH = '/haleyagent/ws';
 
 // Parse command line arguments
 const host = process.argv[2] || DEFAULT_HOST;
 const port = parseInt(process.argv[3]) || DEFAULT_PORT;
-const websocketUrl = `ws://${host}:${port}/haleyagent/ws`;
+const websocketUrl = `ws://${host}:${port}${DEFAULT_PATH}`;
 
 // Sample message from the log
 const sampleMessage = [
@@ -43,7 +44,7 @@ const sampleMessage = [
   },
   {
     "URI": "http://vital.ai/vital.ai/vitalsigns/e715f8f3-d09b-48f2-ae7a-2663c3b96971",
-    "http://vital.ai/ontology/chat-ai#hasChatTextMessage": "hello",
+    "http://vital.ai/ontology/chat-ai#hasChatTextMessage": "whats your name?",
     "type": "http://vital.ai/ontology/chat-ai#HaleyChatUserMessage",
     "http://vital.ai/ontology/vital-core#vitaltype": "http://vital.ai/ontology/chat-ai#HaleyChatUserMessage",
     "types": [

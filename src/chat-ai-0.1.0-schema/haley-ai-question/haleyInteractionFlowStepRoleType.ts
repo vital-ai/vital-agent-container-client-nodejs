@@ -1,0 +1,27 @@
+import { VITAL_Node } from '../vital-core/vitalNode';
+import { VitalSignsPropertyDefinition } from '@vital-ai/vital-model-utils';
+
+/**
+ * VitalSigns class: http://vital.ai/ontology/haley-ai-question#HaleyInteractionFlowStepRoleType
+ */
+export class HaleyInteractionFlowStepRoleType extends VITAL_Node {
+
+
+
+  constructor() {
+    super();
+    this.vitaltype = 'http://vital.ai/ontology/haley-ai-question#HaleyInteractionFlowStepRoleType';
+  }
+
+  /**
+   * Get property definitions for HaleyInteractionFlowStepRoleType
+   */
+  getPropertyDefinitions(): VitalSignsPropertyDefinition[] {
+    return [
+      ...super.getPropertyDefinitions(),
+
+    ];
+  }
+
+
+}

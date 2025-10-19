@@ -1,0 +1,41 @@
+import { VITAL_Node } from '../vital-core/vitalNode';
+import { VitalSignsPropertyDefinition } from '@vital-ai/vital-model-utils';
+
+/**
+ * VitalSigns class: http://vital.ai/ontology/vital-aimp#AgentInstancePayloadDeployment
+ */
+export class AgentInstancePayloadDeployment extends VITAL_Node {
+  public agentMessagePayloadTypeURI?: string;
+  public haleyParameterURI?: string;
+
+
+  constructor() {
+    super();
+    this.vitaltype = 'http://vital.ai/ontology/vital-aimp#AgentInstancePayloadDeployment';
+  }
+
+  /**
+   * Get property definitions for AgentInstancePayloadDeployment
+   */
+  getPropertyDefinitions(): VitalSignsPropertyDefinition[] {
+    return [
+      ...super.getPropertyDefinitions(),
+      {
+        propertyURI: 'http://vital.ai/ontology/vital-aimp#hasAgentMessagePayloadTypeURI',
+        tsPropertyName: 'agentMessagePayloadTypeURI',
+        type: 'string',
+        required: false,
+        format: 'uri'
+      },
+      {
+        propertyURI: 'http://vital.ai/ontology/haley-ai-question#hasHaleyParameterURI',
+        tsPropertyName: 'haleyParameterURI',
+        type: 'string',
+        required: false,
+        format: 'uri'
+      }
+    ];
+  }
+
+
+}

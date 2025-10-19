@@ -9,7 +9,8 @@
     "test": "jest",
     "lint": "eslint --ext .ts src/",
     "prepublish": "npm run build",
-    "agent:connect": "ts-node scripts/agent-connect-script.ts"
+    "agent:connect": "ts-node scripts/agent-connect-script.ts",
+    "agent:connect:domain": "ts-node scripts/agent-connect-domain-script.ts"
   },
   "repository": {
     "type": "git",
@@ -33,6 +34,7 @@
     "uuid": "^11.1.0"
   },
   "dependencies": {
+    "@vital-ai/vital-model-utils": "0.1.6",
     "ws": "^8.18.3",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"

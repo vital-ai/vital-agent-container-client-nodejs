@@ -1,0 +1,33 @@
+import { Edge_hasKGEdge } from './edge_hasKGEdge';
+import { VitalSignsPropertyDefinition } from '@vital-ai/vital-model-utils';
+
+/**
+ * VitalSigns class: http://vital.ai/ontology/haley-ai-kg#Edge_hasKGEntity
+ */
+export class Edge_hasKGEntity extends Edge_hasKGEdge {
+
+
+
+  constructor() {
+    super();
+    this.vitaltype = 'http://vital.ai/ontology/haley-ai-kg#Edge_hasKGEntity';
+  }
+
+  /**
+   * Get property definitions for Edge_hasKGEntity
+   */
+  getPropertyDefinitions(): VitalSignsPropertyDefinition[] {
+    return [
+      ...super.getPropertyDefinitions(),
+
+    ];
+  }
+
+
+  /**
+   * Get the VitalSigns type URI for Edge_hasKGEntity
+   */
+  static getVitalType(): string {
+    return 'http://vital.ai/ontology/haley-ai-kg#Edge_hasKGEntity';
+  }
+}

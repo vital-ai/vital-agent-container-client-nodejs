@@ -1,0 +1,27 @@
+import { HaleyChatCommand } from './haleyChatCommand';
+import { VitalSignsPropertyDefinition } from '@vital-ai/vital-model-utils';
+
+/**
+ * VitalSigns class: http://vital.ai/ontology/chat-ai#GetHomeContentRequest
+ */
+export class GetHomeContentRequest extends HaleyChatCommand {
+
+
+
+  constructor() {
+    super();
+    this.vitaltype = 'http://vital.ai/ontology/chat-ai#GetHomeContentRequest';
+  }
+
+  /**
+   * Get property definitions for GetHomeContentRequest
+   */
+  getPropertyDefinitions(): VitalSignsPropertyDefinition[] {
+    return [
+      ...super.getPropertyDefinitions(),
+
+    ];
+  }
+
+
+}
