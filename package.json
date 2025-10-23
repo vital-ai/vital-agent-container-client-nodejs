@@ -1,5 +1,5 @@
 {
-  "name": "vital-agent-container-client-nodejs",
+  "name": "@vital-ai/vital-agent-container-client-nodejs",
   "version": "1.0.0",
   "description": "TypeScript WebSocket client for services that exchange JSON messages",
   "main": "dist/index.js",
@@ -16,8 +16,8 @@
     "type": "git",
     "url": "git+https://github.com/vital-ai/vital-agent-container-client-nodejs.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["vital-ai", "websocket", "client", "typescript", "vitalsigns", "domain-objects", "chat-ai"],
+  "author": "Vital AI",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/vital-ai/vital-agent-container-client-nodejs/issues"
@@ -30,7 +30,6 @@
     "@types/ws": "^8.18.1",
     "jest": "^30.0.3",
     "ts-jest": "^29.4.0",
-    
     "uuid": "^11.1.0"
   },
   "dependencies": {
